@@ -34,7 +34,7 @@ public class ShapeMain{
         for(Shape s: shapes){
             if(s instanceof Rectangle){
                 Rectangle r = (Rectangle) s;
-                System.out.println("Rectangle width" + r.getWidth() + " Length=" + r.getLength());
+                System.out.println("Rectangle width=" + r.getWidth() + " length=" + r.getLength());
             }else if (s instanceof Circle){
                 Circle c = (Circle) s;
                 System.out.println("Circle radius=" + c.getRadius());
